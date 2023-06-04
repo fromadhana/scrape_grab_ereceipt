@@ -1,0 +1,8 @@
+bs4
+pytz
+pandas
+plotly
+imaplib2
+streamlit
+imap_tools
+watchdog
