@@ -1,4 +1,3 @@
-Certainly! Here's an updated version of the README file with the added disclaimer:
 
 # Grab E-Receipt Dashboard
 
