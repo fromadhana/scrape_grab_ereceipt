@@ -213,7 +213,7 @@ with IMAP4_SSL('imap.gmail.com') as mail:
     grab_food_total_sum = filtered_df['grab_food'].sum()
     formatted_grab_food_total_sum = "Rp {:,.0f}".format(grab_food_total_sum)
 
-    grab_food_average = filtered_df['grab_food'].mean()
+    grab_food_average = filtered_df.loc[filtered_df['grab_food'] > 0, 'grab_food'].mean()
     formatted_grab_food_average = "Rp {:,.0f}".format(grab_food_average)
 
     # Calculate the total (grab_bike + grab_food) and the average of total
